@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./styles/cadastro.css);
+
+:root {
+    --cor-de-fundo: #000000;
+    --branco: #ffffff;
+    --azul-strong: #039aff;
+    --azul: #009dfb;
+
+    --fonte-principal: 'Krona One' , sans-serif ;
+    --azul-degrade: linear-gradient(97.54deg, #01192c 35.49%, #000000 165.37%);
+
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    background: var(--azul-degrade);
+    display: border-box;
+    font-weight: 600;
+}

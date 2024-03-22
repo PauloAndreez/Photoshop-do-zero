@@ -1,0 +1,61 @@
+.vitrine {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 82px;
+    display: flex;
+}
+
+.container-cadastro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.cadastro_item {
+    display: block;
+    flex-direction: column;
+}
+
+.cadastro_titulo {
+    text-align: center;
+    width: 130%;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.cadastro_subtexto {
+    font-weight: 300;
+}
+
+.titulo_strong {
+    color: var(--azul-strong);
+    text-transform: uppercase;
+}
+
+.cadastro_campo {
+    background-color: transparent;
+    color: var(--branco);
+    border-color: var(--azul-strong);
+    border-radius: 6px;
+    margin-top: 1em;
+    font-size: 28px;
+    padding: 0.3em 5em;
+}
+
+.cadastro_input {
+ display: flex;
+ flex-direction: column;
+}
+
+.cadastro_download {
+    background-color: var(--azul);
+    color: var(--branco);
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 1em 5em;
+    margin-top: 1em;
+    font-size: 20px;
+}
